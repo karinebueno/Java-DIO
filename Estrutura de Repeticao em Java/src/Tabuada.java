@@ -17,6 +17,9 @@ public class Tabuada {
             System.out.println(multiplicacao);
             
         } while (contador < 10);
+
+        //for (int i =1; i <=  10 ; i++)
+        //{System.out.println(tabuada*1)}
         
         System.out.println( " A sua tabuaa esta pronta! "); 
     }
