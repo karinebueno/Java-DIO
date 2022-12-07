@@ -6,15 +6,12 @@ public class Nota {
         Scanner ler = new Scanner(System.in);
         int Nota;
 
-        while(true) {
+        System.out.println("Informe uma nota entre zero e dez: ");
+        Nota = ler.nextInt();
 
-            System.out.println("Informe uma nota entre zero e dez: ");
+        while (Nota < 0 | Nota > 10){
+            System.out.println("Valor invalido! Digite Novamente: ");
             Nota = ler.nextInt();
-
-            if (Nota > 10)
-            System.out.println("Valor invalido! ");
-            
-
         }
     }
 }
