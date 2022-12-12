@@ -14,7 +14,7 @@ public class Desafio1 {
         if (media > 0 && media <= 25) 
             System.out.println("Jovem!");
         else 
-            if(media > 26 && media < 60)
+            if(media >= 26 && media <= 60)
                 System.out.println("Adulta!");
             else 
                 System.out.println("Idosa!");
