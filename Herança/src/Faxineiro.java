@@ -1,0 +1,4 @@
+
+class Faxineiro extends Funcionario {
+
+}
